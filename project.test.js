@@ -20,9 +20,7 @@ it('sanity check jokes', () => {
 })
 
 describe('server.js', () => {
-  // 👉 AUTH
-  // 👉 AUTH
-  // 👉 AUTH
+ 
   describe('auth endpoints', () => {
     describe('[POST] /api/auth/register', () => {
       beforeEach(async () => {
@@ -125,9 +123,7 @@ describe('server.js', () => {
     })
   })
 
-  // 👉 JOKES
-  // 👉 JOKES
-  // 👉 JOKES
+
   describe('jokes endpoint', () => {
     describe('[GET] /api/jokes', () => {
       beforeEach(async () => {
